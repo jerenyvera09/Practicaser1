@@ -1,0 +1,99 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Entrega {
+  id_entrega: ID!
+  id_donacion: Int!
+  fecha_entrega: String!
+  observacion: String!
+  solicitud: Solicitud!
+}
+
+type Solicitud {
+  id_solicitud: ID!
+  tipo_solicitud: String!
+  fecha_solicitud: String!
+  estado: String!
+  descripcion: String!
+  receptor: Receptor!
+  entregas: [Entrega!]
+}
+
+type Receptor {
+  id_receptor: ID!
+  nombre: String!
+  cedula: String!
+  telefono: String!
+  direccion: String!
+  correo: String!
+}
+
+type Query {
+  receptores: [Receptor!]!
+  receptor(id: String!): Receptor!
+  solicitudes: [Solicitud!]!
+  solicitud(id: String!): Solicitud!
+  entregas: [Entrega!]!
+  entrega(id: String!): Entrega!
+}
+
+type Mutation {
+  createReceptor(createReceptorInput: CreateReceptorInput!): Receptor!
+  updateReceptor(id: String!, updateReceptorInput: UpdateReceptorInput!): Receptor!
+  removeReceptor(id: String!): Boolean!
+  createSolicitud(createSolicitudInput: CreateSolicitudInput!): Solicitud!
+  updateSolicitud(id: String!, updateSolicitudInput: UpdateSolicitudInput!): Solicitud!
+  removeSolicitud(id: String!): Boolean!
+  createEntrega(createEntregaInput: CreateEntregaInput!): Entrega!
+  updateEntrega(id: String!, updateEntregaInput: UpdateEntregaInput!): Entrega!
+  removeEntrega(id: String!): Boolean!
+}
+
+input CreateReceptorInput {
+  nombre: String!
+  cedula: String!
+  telefono: String!
+  direccion: String!
+  correo: String!
+}
+
+input UpdateReceptorInput {
+  nombre: String
+  cedula: String
+  telefono: String
+  direccion: String
+  correo: String
+  id_receptor: String!
+}
+
+input CreateSolicitudInput {
+  id_receptor: ID!
+  tipo_solicitud: String!
+  fecha_solicitud: String!
+  estado: String!
+  descripcion: String!
+}
+
+input UpdateSolicitudInput {
+  id_receptor: ID
+  tipo_solicitud: String
+  fecha_solicitud: String
+  estado: String
+  descripcion: String
+  id_solicitud: ID!
+}
+
+input CreateEntregaInput {
+  id_solicitud: ID!
+  id_donacion: Int!
+  fecha_entrega: String!
+  observacion: String!
+}
+
+input UpdateEntregaInput {
+  id_solicitud: ID
+  id_donacion: Int
+  fecha_entrega: String
+  observacion: String
+}
