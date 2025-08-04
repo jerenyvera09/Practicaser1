@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1",
+    "nombres": "Juan Carlos",
+    "apellidos": "Pérez González",
+    "cedula": "1234567890",
+    "correo": "juan.perez@uleam.edu.ec",
+    "telefono": "0987654321",
+    "direccion": "Av. Circunvalación 123, Manta, Manabí",
+    "fechaNacimiento": "1985-03-15T00:00:00.000Z",
+    "genero": "MASCULINO",
+    "tipoUsuario": "DOCENTE"
+  },
+  {
+    "id": "2",
+    "nombres": "María Elena",
+    "apellidos": "Rodríguez Vera",
+    "cedula": "0987654321",
+    "correo": "maria.rodriguez@uleam.edu.ec",
+    "telefono": "0912345678",
+    "direccion": "Calle 24 de Mayo 456, Manta, Manabí",
+    "fechaNacimiento": "1990-07-22T00:00:00.000Z",
+    "genero": "FEMENINO",
+    "tipoUsuario": "ADMINISTRATIVO"
+  },
+  {
+    "id": "3",
+    "nombres": "Carlos Alberto",
+    "apellidos": "Mendoza Torres",
+    "cedula": "1122334455",
+    "correo": "carlos.mendoza@est.uleam.edu.ec",
+    "telefono": "0998877665",
+    "direccion": "Barrio Los Esteros, Manta, Manabí",
+    "fechaNacimiento": "2001-11-08T00:00:00.000Z",
+    "genero": "MASCULINO",
+    "tipoUsuario": "ESTUDIANTE"
+  },
+  {
+    "id": "4",
+    "nombres": "Ana Patricia",
+    "apellidos": "Zambrano Cedeño",
+    "cedula": "2233445566",
+    "correo": "ana.zambrano@uleam.edu.ec",
+    "telefono": "0987123456",
+    "direccion": "Urbanización El Palmar, Manta, Manabí",
+    "fechaNacimiento": "1988-04-12T00:00:00.000Z",
+    "genero": "FEMENINO",
+    "tipoUsuario": "DOCENTE"
+  },
+  {
+    "id": "5",
+    "nombres": "Diego Fernando",
+    "apellidos": "Loor Macías",
+    "cedula": "3344556677",
+    "correo": "diego.loor@est.uleam.edu.ec",
+    "telefono": "0976543210",
+    "direccion": "Ciudadela Universitaria, Manta, Manabí",
+    "fechaNacimiento": "2000-09-25T00:00:00.000Z",
+    "genero": "MASCULINO",
+    "tipoUsuario": "ESTUDIANTE"
+  }
+]

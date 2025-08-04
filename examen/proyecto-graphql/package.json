@@ -1,0 +1,19 @@
+{
+  "name": "proyecto-graphql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@nestjs/common": "^11.1.5",
+    "@nestjs/core": "^11.1.5",
+    "@nestjs/typeorm": "^11.0.0",
+    "graphql": "^16.11.0",
+    "typeorm": "^0.3.25"
+  }
+}

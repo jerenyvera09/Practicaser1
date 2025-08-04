@@ -1,0 +1,27 @@
+{
+  "name": "shared-domain",
+  "version": "1.0.0",
+  "description": "Dominio compartido para los proyectos REST, GraphQL y WebSocket",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "keywords": [
+    "domain",
+    "shared",
+    "nestjs"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.0",
+    "sqlite3": "^5.1.7"
+  }
+}
